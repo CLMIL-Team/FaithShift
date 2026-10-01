@@ -19,3 +19,6 @@ where = ["src"]
 [tool.pytest.ini_options]
 testpaths = ["tests"]
 addopts = "-q"
+[tool:pytest]
+testpaths = tests
+python_files = test_*.py
