@@ -1,0 +1,36 @@
+# Python and editors
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+.env
+.idea/
+.vscode/
+
+# Local data, model caches, and experimental products
+data/*
+!data/.gitkeep
+outputs/*
+!outputs/.gitkeep
+runs/
+checkpoints/
+logs/
+*.pt
+*.pth
+*.ckpt
+*.pkl
+*.pickle
+*.jsonl
+*.csv
+*.pdf
+*.png
+
+# Hugging Face / vLLM caches and credentials
+.cache/
+hf_cache/
+wandb/
+*.token
+*secret*

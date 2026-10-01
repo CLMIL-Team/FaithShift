@@ -1,0 +1,14 @@
+# Core offline analysis and tests
+numpy>=1.24
+scipy>=1.10
+PyYAML>=6.0
+
+# Required for dataset preparation, generation, and feature extraction
+torch>=2.1
+transformers>=4.45
+datasets>=2.19
+accelerate>=0.30
+vllm>=0.6
+
+# Development
+pytest>=8.0
